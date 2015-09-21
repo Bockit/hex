@@ -1,0 +1,25 @@
+{
+  "name": "@bockit/hex-storage",
+  "version": "1.0.0",
+  "description": "Hexagon grid storage",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/bockit/hex.git"
+  },
+  "keywords": [
+    "hexagon",
+    "bockit",
+    "hex",
+    "grid"
+  ],
+  "author": "James Hiscock <james@jameshiscock.com> (http://jameshiscock.com/)",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/bockit/hex/issues"
+  },
+  "homepage": "https://github.com/bockit/hex#readme"
+}
