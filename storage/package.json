@@ -18,8 +18,17 @@
   ],
   "author": "James Hiscock <james@jameshiscock.com> (http://jameshiscock.com/)",
   "license": "BSD-3-Clause",
+  "browserify": {
+    "transform": [
+      "babelify"
+    ]
+  },
   "bugs": {
     "url": "https://github.com/bockit/hex/issues"
   },
-  "homepage": "https://github.com/bockit/hex#readme"
+  "homepage": "https://github.com/bockit/hex#readme",
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "tape": "^4.2.0"
+  }
 }
