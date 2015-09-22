@@ -1,7 +1,7 @@
 Hex Round
 =========
 
-Round hex coordinates to their nearest hex.
+Round hex coordinates to their nearest hex. Support cube and axial grid systems.
 
 Logic courtesy of [redblobgames hex grid reference][rbghex]
 
