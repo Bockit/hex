@@ -1,0 +1,35 @@
+{
+  "name": "@bockit/hex-round",
+  "version": "1.0.0",
+  "description": "Hexagon grid rounding",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/bockit/hex.git"
+  },
+  "keywords": [
+    "hexagon",
+    "bockit",
+    "hex",
+    "grid",
+    "rounding"
+  ],
+  "author": "James Hiscock <james@jameshiscock.com> (http://jameshiscock.com/)",
+  "license": "BSD-3-Clause",
+  "browserify": {
+    "transform": [
+      "babelify"
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/bockit/hex/issues"
+  },
+  "homepage": "https://github.com/bockit/hex#readme",
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "tape": "^4.2.0"
+  }
+}
