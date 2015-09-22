@@ -3,8 +3,8 @@ Hex Storage
 
 Store and retrieve values based on the q and r coordinates in a hex grid.
 
-Example
--------
+Usage
+-----
 
 ```javascript
 import grid from '@bockit/hex-storage'
