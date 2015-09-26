@@ -1,0 +1,40 @@
+{
+  "name": "@bockit/hex-render",
+  "version": "1.0.0",
+  "description": "Hexagon rendering",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/bockit/hex.git"
+  },
+  "keywords": [
+    "hexagon",
+    "bockit",
+    "hex",
+    "grid",
+    "rendering",
+    "canvas"
+  ],
+  "author": "James Hiscock <james@jameshiscock.com> (http://jameshiscock.com/)",
+  "license": "BSD-3-Clause",
+  "browserify": {
+    "transform": [
+      "babelify"
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/bockit/hex/issues"
+  },
+  "homepage": "https://github.com/bockit/hex#readme",
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "tape": "^4.2.0"
+  },
+  "dependencies": {
+    "@bockit/hex-coordinates": "0.0.0",
+    "babelify": "^6.3.0"
+  }
+}
