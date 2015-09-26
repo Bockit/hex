@@ -1,6 +1,6 @@
 {
   "name": "@bockit/hex-round",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Hexagon grid rounding",
   "main": "index.js",
   "scripts": {
@@ -31,5 +31,8 @@
   "devDependencies": {
     "babel": "^5.8.23",
     "tape": "^4.2.0"
+  },
+  "dependencies": {
+    "babelify": "^6.3.0"
   }
 }
