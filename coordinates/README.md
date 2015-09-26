@@ -1,5 +1,5 @@
-Hex Round
-=========
+Hex Coordinates
+===============
 
 Convert pixel coordinates to hex coordinates and vice versa. Supports flat and pointy topped hexagons.
 
