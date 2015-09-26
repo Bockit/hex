@@ -1,6 +1,6 @@
 {
   "name": "@bockit/hex-coordinates",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Hexagon grid coordinates",
   "main": "index.js",
   "scripts": {
@@ -33,6 +33,7 @@
     "tape": "^4.2.0"
   },
   "dependencies": {
-    "@bockit/hex-round": "^1.0.0"
+    "@bockit/hex-round": "^1.0.0",
+    "babelify": "^6.3.0"
   }
 }
